@@ -57,6 +57,7 @@
                   p.name,
                   p.description,
                   a.name AS author,
+                  a.email AS email,
                   GROUP_CONCAT(DISTINCT v.version_number ORDER BY v.version_number) AS versions FROM packages p
                   LEFT JOIN authors a ON p.author_id = a.id
                   LEFT JOIN versions v ON p.id = v.package_id
