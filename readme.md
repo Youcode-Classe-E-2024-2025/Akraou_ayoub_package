@@ -23,13 +23,16 @@ Ce projet est une application CRUD (Create, Read, Update, Delete) permettant de 
 
    ```
    git clone https://github.com/Youcode-Classe-E-2024-2025/Akraou_ayoub_package.git
-   Déplacer dans le répertoire du projet :
-   cd Akraou_ayoub_package
    ```
+2. **Déplacer dans le répertoire du projet :**
+     ```
+     cd Akraou_ayoub_package
+     ```
+ 
 
    Déplacer les fichiers dans le dossier www de Laragon : Copiez le répertoire du projet dans le dossier www de votre installation Laragon.
 
-2. **Configurer la base de données :**
+3. **Configurer la base de données :**
 
 -  Démarrez Laragon.
 -  Ouvrez phpMyAdmin ou tout autre outil de gestion de bases de données.
@@ -63,11 +66,12 @@ CREATE TABLE versions (
 );
 ```
 
--  Lancer le serveur :
+4. **Lancer le serveur :**
 
 -  Dans Laragon, cliquez sur le bouton “Start All”.
 -  Ouvrez votre navigateur et accédez à http://localhost/Akraou_ayoub_package.
--  Utilisation Page principale : Affiche la liste des packages avec leurs auteurs associées.
+## Utilisation Page principale : 
+- Affiche la liste des packages avec leurs auteurs associées.
 -  Ajouter un package : Utilisez le formulaire pour ajouter un package avec les détails de l'auteur.
 -  Modifier ou supprimer : Chaque package dispose d'options pour être modifié ou supprimé.
 
